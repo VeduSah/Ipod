@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+.ipod-container{
+  width:100vw;
+  height: 100vh;
+background-color: rgb(170, 214, 98);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ipod{
+  width: 300px;
+  height: 450px;
+  background-color:rgb(219 219 219);
+  border:2px solid black;
+  border-radius: 19px;
+padding: 16px;
+
+}
+.ipod-display{
+  padding: 10px;
+  width: 100%;
+  height: 225px;
+  background-color: aliceblue;
+  border: 2px solid rgb(131, 122, 122);
+  border-radius: 20px;
+}
+.ipod-control-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+}
+.ipod-control{
+  margin-top: 18px ;
+  width: 180px;
+  height: 180px;
+  background-color: azure;
+  border-radius: 50%;
+  border: 2px solid rgb(131, 122, 122);
+  display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ 
+}
+.ipod-control-btn-row{
+  padding: 10px;
+  width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.center-button{
+ height: 60px;
+ width: 60px;
+  background-color:rgb(219 219 219);
+  border-radius: 50%;
+  border: 2px solid rgb(131, 122, 122);
+}
+.ipod-menu{
+  margin-top:10px;
+
+}
+.ipod-menu-list{
+  padding: 11.5px;
+}
+.ipod-menu-list:hover{
+  background-color: rgb(247, 193, 111);
+  transition: 0.01em;
+  cursor: pointer;
+}
+.music_img{
+  width: 100%;
+height: 200px;
+  border-radius: 10px;
+}
+.menu{
+  position: absolute; 
+   background-color: white;
+   box-shadow: 4px 0 2px  #ababab;
+}
