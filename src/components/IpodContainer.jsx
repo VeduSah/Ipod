@@ -1,5 +1,5 @@
 import React from 'react'
-import { Ipod } from './ipod'
+import { Ipod } from './Ipod'
 
 export const IpodContainer = () => {
   return (
